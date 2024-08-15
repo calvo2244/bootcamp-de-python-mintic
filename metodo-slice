@@ -1,0 +1,17 @@
+a = [1,2,3,4,5]
+b = a
+print("1: " + a)
+print("2: " + b)
+del a[0]
+print("3: " + a)
+print("4: " + b)
+print("5: " + id(a))
+print("6: " + id(b))
+c = a [:]
+print("7: " + id(a))
+print("8: " + id(b))
+print("9: " + id(c))
+a.append(6)
+print("10: " + a)
+print("11: " + b)
+print("12: " + c)
