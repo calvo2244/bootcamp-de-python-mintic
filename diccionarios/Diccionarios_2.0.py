@@ -32,7 +32,7 @@ print("Recorrido por el diccionario " )
 print(pairs)
 
 contacts = {
-    "Hector": {"Apellido": "Eduardo",
+    "Hector": {"Apellido": "Astudillo",
                 "Altura":1.71,
                 "edad":42,
                 "Telefono":3008880519,
@@ -49,6 +49,23 @@ contacts = {
                 "Superpoder":"Rapido aprendizaje",
                 "Que logro personla te enorgullese":"Aprender React"
                 },
+    "Hector":   {"Apellido":"Astudillo", 
+                "Altura":1.71,
+                "edad":42, 
+                "Telefono":3008880519,
+                "Signo sodiacal": "cancer",
+                "Serie favorita":"Silicon Valley",
+                "cancion favorita" :"Algo que se quede - grupo niche",
+                "Lugar soñado de vacaiones": "miami",
+                "habilidad":"vacio",
+                "pasatiempo":"Videojuegos- fc24",
+                "Heroe o personas que mas admiras":"Steve Jobs",
+                "Libro que mas te ha impactado":"no tengo",
+                "cenar con alguien":"mi esposa jejej",
+                "superpoderes":"Rapido aprendizaje",
+                "logro personal":"Aprender React"
+    },
+}
     "Aurelio": {"Apellido": "cheveroni",
                 "Altura":1.51,
                 "edad":15,
