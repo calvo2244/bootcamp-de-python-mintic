@@ -1,0 +1,73 @@
+body{
+    margin: 0px; /*Esto es para quitar el margen*/
+    padding: 0px; /*Esto es para quitar el padding, el padding es el relleno*/
+    display: flex; /*Esto es para que todo el contenido se coloque en una sola linea*/
+    min-height: 100vh; /*Esto es para que el contenido se coloque en el alto de la pantalla*/
+    flex-direction: column; /*Esto es para que el contenido se coloque en la parte de abajo de la pantalla*/
+}
+
+header{
+    height: 500px; /*Esto es para el tamaño de la imagen*/
+
+}
+header nav{
+    height: 100px; /*Esto es para el tamaño de la imagen*/
+    background: white; /*Esto es para el color de la imagen*/
+    box-shadow: none;    /*Esto es para que no se vea el sombreado de la imagen*/
+}
+nav .brand-logo{
+    height: 100px; /*Esto es para el tamaño de la imagen*/
+    left: 15%; /*Esto es para la posicion de la imagen*/
+}
+nav .brand-logo img{
+    width: 52px;  /*Esto es para el tamaño de la imagen*/
+}
+header nav ul {
+    height: 100px; /*Esto es para el tamaño de la imagen*/;
+}
+header ul a{
+    color: gray; /*Esto es para el color de la imagen*/
+}
+.header-main-pic{
+    width: 100%; /*Esto es para el tamaño de la imagen*/
+    height: 400px; /*Esto es para el tamaño de la imagen*/
+    background-image: url('../assets/img/Banner.jpg'); /*Esto es para la imagen*/
+    background-repeat:no-repeat; /*Esto es para que la imagen no se repita*/;
+    background-position: center; /*Esto es para la posicion de la imagen*/
+    background-size: cover; /*Esto es para el tamaño de la imagen*/
+}
+.input-field.input-container{
+    height: 100px;
+    float: none;
+    display: flex;
+    margin: 0 auto;
+}
+.input-field > #search{
+    margin-top: 25px;
+}
+.input-container i{
+    margin-top: 45px;
+    margin-right: 15px;
+}
+footer.page-footer{
+    height: 80px;
+    background: #26a69a;;
+    bottom: 0;
+}
+/*Post.html*/
+.post-pic{
+    width: 100%;
+    height: 400px;
+    background-image: url('https://picsum.photos/1000/400');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*Registro*/
+.registro-header{
+    height: 400px;
+}
+
+.registro-titulo{
+    margin-top: 80px;
+}
