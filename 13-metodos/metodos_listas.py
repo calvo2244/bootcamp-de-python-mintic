@@ -16,12 +16,12 @@ posicion = 2
 lista.insert(posicion,"Garces")
 print("imprimimos la lista despues de insert en la posicion ", posicion, "==>", lista)
 
-# Agregando varios elementos a la lista 
+# Agregando varios elementos a la lista  extend
 lista.extend(["MINTIC", "2024"])
 print("imprimimos la lista despues de EXTEND==>", lista)
 
 
-# Eliminando un elemento a la lista
+# Eliminando un elemento a la lista pop
 print("cuantos elementos tiene la lista ", len(lista))
 lista.pop(0)
 print("cuantos elementos queda la lista ", len(lista))
