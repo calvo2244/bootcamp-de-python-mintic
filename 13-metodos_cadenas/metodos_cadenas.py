@@ -51,4 +51,7 @@ print(len(cadena1))
 print("inicia con",cadena1.startswith("H"))
 print("termina con",cadena1.endswith("n"))
 
-#slide 302
+# el método SPLIT para separar la cadena:
+cadena_separada = cadena1.split(",") #separa la cadena por comas 
+print(cadena_separada)
+print(type(cadena_separada))
